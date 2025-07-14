@@ -3,7 +3,7 @@
 library(ggplot2)
 
 # Set working directory 
-setwd("/home/sreichl/projects/GPAI")  
+setwd("/home/sreichl/projects/ResearchAcceleration")  
 
 # configs
 

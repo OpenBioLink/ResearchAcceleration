@@ -5,7 +5,7 @@ library(tidyverse)
 library(patchwork)
 
 # Set working directory 
-setwd("/home/sreichl/projects/GPAI")  
+setwd("/home/sreichl/projects/ResearchAcceleration")  
 
 # configs
 
