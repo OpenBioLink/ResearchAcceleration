@@ -17,6 +17,10 @@ dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 
 # plotting defaults ---------------------------
 theme_set(theme_minimal(base_size = 8, base_family = "Arial"))
+theme_update(
+  axis.text.x = element_text(size = 6, colour = "black", family = "Arial"),
+  axis.text.y = element_text(size = 6, colour = "black", family = "Arial"),
+)
 
 # colour palette (same grey for the two neutral halves) 
 cols <- c(
@@ -128,7 +132,8 @@ geom_text(
   aes(x = limit, y = -8, label = paste0("N=", total)), # fixed left position
   inherit.aes = FALSE,
   hjust = 0, vjust = 0.5,
-  size  = 3
+  size  = 3,
+  colour="grey50"
 ) +
   coord_flip() +
     scale_x_discrete(

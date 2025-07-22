@@ -18,7 +18,10 @@ dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 
 # plotting
 theme_set(theme_minimal(base_size = 8, base_family = "Arial"))
-# colors <- c("Cognitive" = "#3498db", "Physical" = "#e74c3c")
+theme_update(
+  axis.text.x = element_text(size = 6, colour = "black", family = "Arial"),
+  axis.text.y = element_text(size = 6, colour = "black", family = "Arial"),
+)
 
 # plot sizes
 height_in <- 4
@@ -176,7 +179,7 @@ geom_dotplot(
   alpha      = 1
 ) +
   scale_y_discrete(limits = "Total project time") +
-  labs(x = "Time (months)", y = NULL)+
+  labs(x = "\nTime (months)", y = NULL)+
   scale_x_continuous(
     breaks = seq(0, ceiling(max(df_total$months) / 12) * 12, by = 12),
       limits = c(0, ceiling(max(df_total$months) / 12) * 12),
@@ -229,9 +232,11 @@ tbl_total_pct  <- ggplot(total_tbl,
 final_plot <- ((plot_tasks | tbl_mean | tbl_pct)+plot_layout(widths = c(6,1,1))) /
               ((plot_total | tbl_total_mean | tbl_total_pct)+plot_layout(widths = c(6,1,1))) +
               plot_layout(heights = c(9, 1), guides = "collect") &
-  theme(
+theme(
     legend.position  = "bottom",
-    legend.direction = "horizontal"
+    legend.direction = "horizontal",
+    legend.justification = "left", 
+    legend.box.just      = "left",
   )
 
 final_plot
