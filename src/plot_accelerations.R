@@ -84,7 +84,7 @@ geom_label(
 coord_cartesian(clip = "off")+
   scale_y_log10() +
   guides(fill = "none") + 
-  labs(x = "Task type", y = expression(Acceleration~factor~(log[10]))) +
+  labs(x = "Task type", y = "Acceleration factor") +
   theme_minimal()+
 theme(
   legend.position  = "bottom",
