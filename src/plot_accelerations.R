@@ -63,9 +63,10 @@ violin_scatter_plot <- ggplot(df, aes(x = type, y = acceleration)) +
   ) +
   scale_fill_manual(values = colors) +
   scale_shape_manual(
-    name   = "Acceleration level",         
+    name   = "GPAI capability",         
       breaks = c("Next", "Maximum"),
-    values = c("Next" = 25, "Maximum" = 24),
+      labels = c("Next-level", "Maximum-level"),
+      values = c("Next" = 25, "Maximum" = 24),
       guide  = guide_legend(override.aes = list(size = 2))
   ) +
 geom_label(
