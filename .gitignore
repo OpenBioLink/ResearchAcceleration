@@ -1,1 +1,4 @@
+*.claude*
+*.additional_files*
 *.ipynb_checkpoints*
+*.vscode*
