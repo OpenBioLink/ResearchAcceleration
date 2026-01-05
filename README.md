@@ -1,5 +1,6 @@
-<h3><big><big><big>What are the limits to biomedical research acceleration through general-purpose AI?</big></big></big></h3>
-<sub>Hebenstreit, K., Convalexius, C., Reichl, S., Huber, S., Bock, C., & Samwald, M. (2025)</sub>
+# What are the limits to biomedical research acceleration through general-purpose AI?
+<sub>Hebenstreit, K.†, Convalexius, C.†, Reichl, S.†, Huber, S., Bock, C., & Samwald, M. (2025). What are the limits to biomedical research acceleration through general-purpose AI? *Scientific Reports* (in publication). &nbsp; †Equal contribution <br> 
+Preprint: [arXiv:2508.16613](https://doi.org/10.48550/arXiv.2508.16613)</sub>
 
 ---
 
@@ -30,21 +31,6 @@ General-purpose artificial intelligence (GPAI) is widely expected to transform s
 </tr>
 </table>
 
-## Citation
-
-If you find our work useful in your research, please cite:
-
-**Scientific Reports (2025)**
-
-> Hebenstreit, K.†, Convalexius, C.†, Reichl, S.†, Huber, S., Bock, C., & Samwald, M. (2025).
-> **What are the limits to biomedical research acceleration through general-purpose AI?**
-> *Scientific Reports* (in publication).
-
-**ArXiv Preprint (2025)**
-> doi: [10.48550/arXiv.2508.16613](https://doi.org/10.48550/arXiv.2508.16613)
-
-† Equal contribution
-
 ## Biological Time Constants
 
 Large task-level speed-ups do not translate into equivalent reductions in overall project duration. Many biomedical projects are constrained by biological processes that cannot be compressed (cell growth, organism development, disease progression).
@@ -61,14 +47,27 @@ Even with maximum acceleration, the lower bound is **~3.6 months** (10x overall)
 
 ## Expert Elicitation
 
-Eight senior biomedical researchers evaluated our maximum-level acceleration estimates:
+Eight senior biomedical researchers participated in an expert survey.
 
-<p align="center">
+**How is time distributed across research tasks?**
+
+<table border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: 0;">
+<tr>
+<td align="center" valign="bottom" style="border: 0;">
 <img src="results/plots/project_times_plot.png" width="70%">
-</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" style="border: 0;">
 <h3 align="center">Project Durations</h3>
+<p>Experts reported average project durations of <b>~6 years</b> for high-impact publications.</p>
+</td>
+</tr>
+</table>
 
-Experts reported average project durations of **~6 years** for high-impact publications.
+<br>
+
+**Are maximum-level acceleration estimates plausible, and what limits acceleration potential?**
 
 <table border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: 0;">
 <tr>
@@ -103,7 +102,7 @@ This repository contains the data and R scripts used to generate the figures:
 |:---:|---|---|---|
 | 1 | GPAI capability framework | — | [`plot_capability_model.R`](src/plot_capability_model.R) |
 | 2 | Major research tasks | — | *(graphical software)* |
-| 3 | Acceleration factors | [`Acceleration_Factors_...csv`](data/Acceleration_Factors_with_Ranges_and_Midpoints_clean.csv) | [`plot_accelerations.R`](src/plot_accelerations.R) |
-| 4 | Project time durations | [`anonymized_data_project_times.csv`](data/anonymized_data_project_times.csv) | [`plot_project_times.R`](src/plot_project_times.R) |
-| 5 | Plausibility estimates | [`anonymized_data_plausibility_estimates.csv`](data/anonymized_data_plausibility_estimates.csv) | [`plot_plausibility_estimates.R`](src/plot_plausibility_estimates.R) |
-| 6 | Limiting factors | [`anonymized_data_limiting_factors.csv`](data/anonymized_data_limiting_factors.csv) | [`plot_limitation_estimates.R`](src/plot_limitation_estimates.R) |
+| 3 | Acceleration factors | [`acceleration_factors.csv`](data/Acceleration_Factors_with_Ranges_and_Midpoints_clean.csv) | [`plot_accelerations.R`](src/plot_accelerations.R) |
+| 4 | Project time durations | [`project_times.csv`](data/anonymized_data_project_times.csv) | [`plot_project_times.R`](src/plot_project_times.R) |
+| 5 | Plausibility estimates | [`plausibility.csv`](data/anonymized_data_plausibility_estimates.csv) | [`plot_plausibility_estimates.R`](src/plot_plausibility_estimates.R) |
+| 6 | Limiting factors | [`limiting_factors.csv`](data/anonymized_data_limiting_factors.csv) | [`plot_limitation_estimates.R`](src/plot_limitation_estimates.R) |
