@@ -127,3 +127,20 @@ This repository contains the data and R scripts used to generate the figures:
 | 4 | Project time durations | [`project_times.csv`](data/anonymized_data_project_times.csv) | [`plot_project_times.R`](src/plot_project_times.R) |
 | 5 | Plausibility estimates | [`plausibility.csv`](data/anonymized_data_plausibility_estimates.csv) | [`plot_plausibility_estimates.R`](src/plot_plausibility_estimates.R) |
 | 6 | Limiting factors | [`limiting_factors.csv`](data/anonymized_data_limiting_factors.csv) | [`plot_limitation_estimates.R`](src/plot_limitation_estimates.R) |
+
+<br>
+
+## Citation
+
+If you find our work useful in your research, please cite:
+
+**Scientific Reports (2025)**
+
+> Hebenstreit, K.†, Convalexius, C.†, Reichl, S.†, Huber, S., Bock, C., & Samwald, M. (2025).
+> **What are the limits to biomedical research acceleration through general-purpose AI?**
+> *Scientific Reports* (in publication).
+
+**ArXiv Preprint (2025)**
+> doi: [10.48550/arXiv.2508.16613](https://doi.org/10.48550/arXiv.2508.16613)
+
+† Equal contribution
