@@ -57,7 +57,7 @@ Eight senior biomedical researchers participated in an expert survey.
 <table border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: 0;">
 <tr>
 <td align="center" valign="bottom" style="border: 0;">
-<img src="results/plots/project_times_plot.png" width="70%">
+<img src="results/plots/project_times_plot.png" width="85%">
 </td>
 </tr>
 <tr>
@@ -75,7 +75,7 @@ Eight senior biomedical researchers participated in an expert survey.
 <table border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: 0;">
 <tr>
 <td align="center" valign="bottom" style="border: 0;">
-<img src="results/plots/plausibility_estimates_plot.png" width="70%">
+<img src="results/plots/plausibility_estimates_plot.png" width="85%">
 </td>
 </tr>
 <tr>
@@ -93,7 +93,7 @@ Eight senior biomedical researchers participated in an expert survey.
 <table border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: 0;">
 <tr>
 <td align="center" valign="bottom" style="border: 0;">
-<img src="results/plots/limitation_estimates_plot.png" width="70%">
+<img src="results/plots/limitation_estimates_plot.png" width="85%">
 </td>
 </tr>
 <tr>
