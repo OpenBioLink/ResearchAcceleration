@@ -15,15 +15,13 @@ General-purpose artificial intelligence (GPAI) is widely expected to transform s
 </td>
 </tr>
 <tr>
-<td align="left" valign="top" style="border: 0;">
-<br>
+<td align="left" valign="top" style="border: 0;"><br>
 <p align="center"><b>Research tasks</b></p>
 <p>We mapped the biomedical research lifecycle into <b>nine major tasks</b>:</p>
 <p><b>Cognitive</b> (blue): information processing, analysis, decision-making<br>
 <b>Physical</b> (red): lab procedures, experiment execution</p>
 </td>
-<td align="left" valign="top" style="border: 0;">
-<br>
+<td align="left" valign="top" style="border: 0;"><br>
 <p align="center"><b>Acceleration estimates</b></p>
 <p>Scoping review of 16 publications reveals a bimodal distribution:</p>
 <p><b>Next-level:</b> ~2x (current, partial automation)<br>
@@ -63,8 +61,7 @@ Eight senior biomedical researchers participated in an expert survey.
 </td>
 </tr>
 <tr>
-<td align="left" valign="top" style="border: 0;">
-<br>
+<td align="left" valign="top" style="border: 0;"><br>
 <p align="center"><b>Project durations</b></p>
 <p>Experts reported average project durations of <b>~6 years</b> for high-impact publications.</p>
 </td>
@@ -82,8 +79,7 @@ Eight senior biomedical researchers participated in an expert survey.
 </td>
 </tr>
 <tr>
-<td align="left" valign="top" style="border: 0;">
-<br>
+<td align="left" valign="top" style="border: 0;"><br>
 <p align="center"><b>Acceleration plausibility</b></p>
 <p>Experts considered strong acceleration plausible for <b>manuscript preparation</b> and <b>publication processes</b>, but were skeptical about <b>hypothesis generation</b>, <b>experiment design</b>, and <b>execution</b>.</p>
 </td>
@@ -101,8 +97,7 @@ Eight senior biomedical researchers participated in an expert survey.
 </td>
 </tr>
 <tr>
-<td align="left" valign="top" style="border: 0;">
-<br>
+<td align="left" valign="top" style="border: 0;"><br>
 <p align="center"><b>Limiting factors</b></p>
 <p>All experts identified <b>scientific community assimilation</b> as a moderate to crucial bottleneck for realizing acceleration benefits.</p>
 </td>
