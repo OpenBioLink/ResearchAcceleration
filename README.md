@@ -1,5 +1,5 @@
 # What are the limits to biomedical research acceleration through general-purpose AI?
-<sub>Hebenstreit, K.†, Convalexius, C.†, Reichl, S.†, Huber, S., Bock, C., & Samwald, M. (2025). What are the limits to biomedical research acceleration through general-purpose AI? *Scientific Reports* (in publication). · †Equal contribution · Preprint: [arXiv:2508.16613](https://doi.org/10.48550/arXiv.2508.16613)</sub>
+<sub>Hebenstreit, K.†, Convalexius, C.†, Reichl, S.†, Huber, S., Bock, C., & Samwald, M. (2025). *Scientific Reports* (in publication). · †Equal contribution · Preprint: [arXiv:2508.16613](https://doi.org/10.48550/arXiv.2508.16613)</sub>
 
 ---
 
@@ -137,5 +137,6 @@ If you find our work useful in your research, please cite:
 
 **ArXiv Preprint (2025)**
 > doi: [10.48550/arXiv.2508.16613](https://doi.org/10.48550/arXiv.2508.16613)
+
 
 † Equal contribution
