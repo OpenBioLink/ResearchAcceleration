@@ -1,6 +1,5 @@
 # What are the limits to biomedical research acceleration through general-purpose AI?
-<sub>Hebenstreit, K.†, Convalexius, C.†, Reichl, S.†, Huber, S., Bock, C., & Samwald, M. (2025). What are the limits to biomedical research acceleration through general-purpose AI? *Scientific Reports* (in publication). &nbsp; †Equal contribution <br> 
-Preprint: [arXiv:2508.16613](https://doi.org/10.48550/arXiv.2508.16613)</sub>
+<sub>Hebenstreit, K.†, Convalexius, C.†, Reichl, S.†, Huber, S., Bock, C., & Samwald, M. (2025). What are the limits to biomedical research acceleration through general-purpose AI? *Scientific Reports* (in publication). · †Equal contribution · Preprint: [arXiv:2508.16613](https://doi.org/10.48550/arXiv.2508.16613)</sub>
 
 ---
 
@@ -17,13 +16,15 @@ General-purpose artificial intelligence (GPAI) is widely expected to transform s
 </tr>
 <tr>
 <td align="left" valign="top" style="border: 0;">
-<h3 align="center">Research Tasks</h3>
+<br>
+<p align="center"><b>Research tasks</b></p>
 <p>We mapped the biomedical research lifecycle into <b>nine major tasks</b>:</p>
 <p><b>Cognitive</b> (blue): information processing, analysis, decision-making<br>
 <b>Physical</b> (red): lab procedures, experiment execution</p>
 </td>
 <td align="left" valign="top" style="border: 0;">
-<h3 align="center">Acceleration Estimates</h3>
+<br>
+<p align="center"><b>Acceleration estimates</b></p>
 <p>Scoping review of 16 publications reveals a bimodal distribution:</p>
 <p><b>Next-level:</b> ~2x (current, partial automation)<br>
 <b>Maximum-level:</b> ~100x cognitive, ~25x physical</p>
@@ -31,7 +32,9 @@ General-purpose artificial intelligence (GPAI) is widely expected to transform s
 </tr>
 </table>
 
-## Biological Time Constants
+<br>
+
+## Biological time constants
 
 Large task-level speed-ups do not translate into equivalent reductions in overall project duration. Many biomedical projects are constrained by biological processes that cannot be compressed (cell growth, organism development, disease progression).
 
@@ -45,7 +48,9 @@ Large task-level speed-ups do not translate into equivalent reductions in overal
 
 Even with maximum acceleration, the lower bound is **~3.6 months** (10x overall), with incompressible biological processes dominating.
 
-## Expert Elicitation
+<br>
+
+## Expert elicitation
 
 Eight senior biomedical researchers participated in an expert survey.
 
@@ -59,7 +64,8 @@ Eight senior biomedical researchers participated in an expert survey.
 </tr>
 <tr>
 <td align="left" valign="top" style="border: 0;">
-<h3 align="center">Project Durations</h3>
+<br>
+<p align="center"><b>Project durations</b></p>
 <p>Experts reported average project durations of <b>~6 years</b> for high-impact publications.</p>
 </td>
 </tr>
@@ -67,24 +73,37 @@ Eight senior biomedical researchers participated in an expert survey.
 
 <br>
 
-**Are maximum-level acceleration estimates plausible, and what limits acceleration potential?**
+**Are maximum-level acceleration estimates plausible?**
 
 <table border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: 0;">
 <tr>
-<td width="50%" align="center" valign="bottom" style="border: 0;">
-<img src="results/plots/plausibility_estimates_plot.png" width="96%">
-</td>
-<td width="50%" align="center" valign="bottom" style="border: 0;">
-<img src="results/plots/limitation_estimates_plot.png" width="96%">
+<td align="center" valign="bottom" style="border: 0;">
+<img src="results/plots/plausibility_estimates_plot.png" width="70%">
 </td>
 </tr>
 <tr>
 <td align="left" valign="top" style="border: 0;">
-<h3 align="center">Acceleration Plausibility</h3>
+<br>
+<p align="center"><b>Acceleration plausibility</b></p>
 <p>Experts considered strong acceleration plausible for <b>manuscript preparation</b> and <b>publication processes</b>, but were skeptical about <b>hypothesis generation</b>, <b>experiment design</b>, and <b>execution</b>.</p>
 </td>
+</tr>
+</table>
+
+<br>
+
+**What limits acceleration potential?**
+
+<table border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: 0;">
+<tr>
+<td align="center" valign="bottom" style="border: 0;">
+<img src="results/plots/limitation_estimates_plot.png" width="70%">
+</td>
+</tr>
+<tr>
 <td align="left" valign="top" style="border: 0;">
-<h3 align="center">Limiting Factors</h3>
+<br>
+<p align="center"><b>Limiting factors</b></p>
 <p>All experts identified <b>scientific community assimilation</b> as a moderate to crucial bottleneck for realizing acceleration benefits.</p>
 </td>
 </tr>
@@ -94,7 +113,9 @@ Realizing the full potential of GPAI-driven research acceleration will require c
 
 
 
-## Code & Data
+<br>
+
+## Code & data
 
 This repository contains the data and R scripts used to generate the figures:
 
