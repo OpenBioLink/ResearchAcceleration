@@ -68,16 +68,28 @@ Eight senior biomedical researchers evaluated our maximum-level acceleration est
 </p>
 <h3 align="center">Project Durations</h3>
 
-Experts reported average project durations of **~6 years** for high-impact publications. While they considered strong acceleration plausible for **manuscript preparation** and **publication processes**, they were skeptical about dramatic speed-ups in **hypothesis generation**, **experiment design**, and **execution**.
+Experts reported average project durations of **~6 years** for high-impact publications.
 
-<p align="center">
-<img src="results/plots/plausibility_estimates_plot.png" width="48%">
-<img src="results/plots/limitation_estimates_plot.png" width="48%">
-</p>
-
-**Plausibility Estimates** (left) | **Limiting Factors** (right)
-
-**Key bottleneck:** All experts identified **scientific community assimilation** as a moderate to crucial limit.
+<table border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: 0;">
+<tr>
+<td width="50%" align="center" valign="bottom" style="border: 0;">
+<img src="results/plots/plausibility_estimates_plot.png" width="96%">
+</td>
+<td width="50%" align="center" valign="bottom" style="border: 0;">
+<img src="results/plots/limitation_estimates_plot.png" width="96%">
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" style="border: 0;">
+<h3 align="center">Acceleration Plausibility</h3>
+<p>Experts considered strong acceleration plausible for <b>manuscript preparation</b> and <b>publication processes</b>, but were skeptical about <b>hypothesis generation</b>, <b>experiment design</b>, and <b>execution</b>.</p>
+</td>
+<td align="left" valign="top" style="border: 0;">
+<h3 align="center">Limiting Factors</h3>
+<p>All experts identified <b>scientific community assimilation</b> as a moderate to crucial bottleneck for realizing acceleration benefits.</p>
+</td>
+</tr>
+</table>
 
 Realizing the full potential of GPAI-driven research acceleration will require coordinated investments in automation infrastructure, improved data accessibility, and reforms in research organization and publication practices.
 
