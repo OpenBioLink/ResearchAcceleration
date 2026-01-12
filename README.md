@@ -1,5 +1,5 @@
 # What are the limits to biomedical research acceleration through general-purpose AI?
-<sub>Hebenstreit, K.†, Convalexius, C.†, Reichl, S.†, Huber, S., Bock, C., & Samwald, M. (2025). *Scientific Reports* (in publication). · †Equal contribution · Preprint: [arXiv:2508.16613](https://doi.org/10.48550/arXiv.2508.16613)</sub>
+<sub>Hebenstreit, K.†, Convalexius, C.†, Reichl, S.†, Huber, S., Bock, C., & Samwald, M. (2026). *Scientific Reports* · †Equal contribution · [Link to paper](https://www.nature.com/articles/s41598-025-32583-w#citeas)</sub>
 
 ---
 
@@ -129,14 +129,12 @@ This repository contains the data and R scripts used to generate the figures:
 
 If you find our work useful in your research, please cite:
 
-**Scientific Reports (2025)**
+**Scientific Reports (2026)**
 
-> Hebenstreit, K.†, Convalexius, C.†, Reichl, S.†, Huber, S., Bock, C., & Samwald, M. (2025).
-> **What are the limits to biomedical research acceleration through general-purpose AI?**
-> *Scientific Reports* (in publication).
+> Hebenstreit, K., Convalexius, C., Reichl, S. *et al.* What are the limits to biomedical research acceleration through general-purpose AI?. *Sci Rep* **16**, 1304 (2026). [https://doi.org/10.1038/s41598-025-32583-w](https://doi.org/10.1038/s41598-025-32583-w)
 
 **ArXiv Preprint (2025)**
 > doi: [10.48550/arXiv.2508.16613](https://doi.org/10.48550/arXiv.2508.16613)
 
 
-† Equal contribution
+Equal contribution from: Hebenstreit, K., Convalexius, C., and Reichl, S.
